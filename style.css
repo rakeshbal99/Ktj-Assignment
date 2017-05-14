@@ -40,7 +40,7 @@ input:focus{
 	transform:scale(1.1,1.1); 
 	-ms-transform:scale(1.1,1.1);
 	-webkit-transform:scale(1.1,1.1);
-	transform: all 0.05s;
+	transform: all 0.05s linear;
 }
 
 .input-text{
@@ -67,7 +67,7 @@ input:focus{
     padding-right: 25px;
 }
 .submit:hover{
-	background-color:#b3ffb3 ;
+	background-color:/*#b3ffb3 */#e67300;
 	color: black;
 }
 input {

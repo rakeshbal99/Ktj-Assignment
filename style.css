@@ -22,9 +22,10 @@ a:link{
 a:visited{
 	color:white;
 }
-a:hover{;
+a:hover{
 	color: #e67300;
-	transform: scale(1.2,1.2);
+	transform:scale(1.2,1.2);
+	font-size: 26px;
 	transition: 0.05s;
 }
 

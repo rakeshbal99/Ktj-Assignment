@@ -1,0 +1,76 @@
+body{
+  background: url(media/ktj.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+	width: auto;
+}
+.ktjlogo{
+	margin-left: 30%;
+}
+.ktjlogo img{
+	height: 50%;
+	width: 50%;
+}
+
+a:link{
+	color: white;
+}
+a:visited{
+	color:white;
+}
+a:hover{
+	color: #e67300;
+	transform:scale(1.2,1.2);
+	font-size: 26px;
+	transition: 0.05s;
+}
+
+.body-text{
+	font-size: 200%;
+	text-align: left;
+	margin-left: 30%;
+	margin-right: 30%;
+	color: white;
+}
+
+input:focus{
+	transform:scale(1.1,1.1); 
+	-ms-transform:scale(1.1,1.1);
+	-webkit-transform:scale(1.1,1.1);
+	transform: all 0.05s linear;
+}
+
+.input-text{
+/*	background-color: rgba(255,255,255,0.2);*/
+}
+.Para{
+	margin-left: 39%;
+	margin-right: 30%;
+	font-size: 25px;
+}
+.para:hover{
+
+}
+.para2{
+	margin-left: 35%;
+}
+.submit{
+	margin-top: 15px;
+	margin-left: 32%;
+	color: white;
+	background-color: grey;
+	font-size: 20px; 
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.submit:hover{
+	background-color:/*#b3ffb3 */#e67300;
+	color: black;
+}
+input {
+	padding: 8px;
+}
